@@ -1,0 +1,85 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+    /* Adjust this margin as needed */
+}
+
+textarea {
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    text-align: justify;
+    margin-top: 20px;
+    /* Adjust this margin as needed */
+    font-size: 14px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    outline: 0;
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #ffff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    /* Adjust this margin as needed */
+    font-size: 16px;
+    font-family: 'Cormorant', serif;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #ccc;
+}
+
+#resultStyle {
+    margin: 10px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align: justify;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 720px) {
+    textarea {
+        width: 900px;
+        height: 270px;
+    }
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    color: #000;
+    /* Set text color to black */
+}
